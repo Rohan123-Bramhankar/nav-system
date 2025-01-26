@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Navigation system</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .nav{
+        color: blue;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+        margin-top: 50px;
+      
+        justify-content: space-around;
+
+        
+    }
+    a{
+        text-decoration: none;
+        position: relative;
+       
+    }
+  
+    img{
+        height: 20vh;
+        width: 25vh;
+       
+        padding-bottom: 10px;
+        position: relative;
+        margin-right: 10px;
+       
+       
+    
+    }
+    .fifth{
+        position: relative;
+        margin-top: 30px;
+        
+    }
+    .logo{
+        background-color: blue;
+        position: relative;
+        height:10vh ;
+       
+      
+       
+        position: relative;
+        
+
+    }
+  
+    a{
+        font-size: 22px;
+        color: darkblue;
+    }
+    .center{
+        height: 70vh;
+        background-image: url('/new.s');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .text{
+        background-color: blue;
+        position: relative;
+        font-size: 30px;
+        color: white;
+      
+        margin-left: 239px;
+        padding-top: 10px;
+    }
+    a:hover{
+        background-color: blue;
+        color: white;
+    }
+    marquee{
+        background-color: blue;
+        color: white;
+    }
+    span{
+        position: relative;
+        color: black;
+        font-size: 20px;
+        
+        
+    }
+
+    .container{
+        display: inline-block;
+        width: 60vh;
+        height: 70vh;
+        overflow-y:scroll;
+        background-color: white;
+        opacity: 0.5;
+        color: black;
+    }
+    #info{
+        position: relative;
+        margin-left: 20px;
+
+    }
+    button{
+        color: darkblue;
+        background-color: white;
+
+        direction: none;
+        border: none;
+        font-size: 20px;
+    }
+    
+
+    
+
+   
+
+</style>
+<body>
+    <div class="bdiv">
+        <div class="font">
+        
+        <div class="logo">
+            <img  src="/logo.jpg" alt="logo">
+            
+
+       </div>
+       <div class="text">INDIAN RAILWAY NAVIGATION<i class="fa fa-train" aria-hidden="true" id="info"></i>
+</div>
+    </div>
+       
+    <nav class="nav">
+        
+            <div class="fisrt"><a href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a></div>
+        <div class="second"><a href="https://www.railyatri.in/live-train-status"><i class="fa fa-train" aria-hidden="true"></i>
+            Train Status</a></div>
+        <div class="third"><a href=""><i class="fa fa-subway" aria-hidden="true"></i>
+            PNR Status</a></div>
+        <div class="fourth"><a href=""><i class="fa fa-info" aria-hidden="true"></i>
+            Station Information</a></div>
+        <nav class="snav">
+            <div><a href=""><i class="fa fa-ambulance" aria-hidden="true"></i>
+                Help</a></div>
+            <div class="fifth"><button id="navigation-button"><i class="fa fa-location-arrow" aria-hidden="true"></i>Navigation System</button></div>
+            
+        </nav>
+      
+
+    </nav>
+    </div>
+    <div class="center">
+        <div class="container">
+            <span>1.Ticket Verification: Always carry a valid ticket or a confirmed train reservation. Be prepared to show it during ticket inspection.
+            </span>
+            <br>
+            <span>2.Platform Information: Check the platform number from the station’s information board or announcements. Confirm your train's departure platform before heading to it.</span><br>
+            <span>3.Arrive Early: Arrive at least 30-45 minutes before your train's departure time to ensure enough time for security checks and boarding.</span><br>
+            <span>4.Luggage Handling: Carry minimal luggage or use the designated luggage counters for checking in larger items. Keep your belongings close.</span><br>
+            <span>5.Security Check: All passengers must go through security checks. Ensure that your luggage complies with safety norms.
+
+            </span><br>
+            <span>6.Keep Essential Items Accessible: Keep identification, tickets, and valuables handy for easy access and verification.</span><br>
+            <span>7.Respect Train Etiquette: Be mindful of the train's cleanliness and fellow passengers. Avoid blocking aisles or doorways.</span><br>
+            <span>8.Boarding: Board the train only once it has come to a complete stop. Ensure you're at the correct coach (confirm with your ticket).
+
+            </span><br>
+            <span>9.Platform Discipline: Stand behind the safety line on platforms. Avoid rushing or pushing when the train arrives.</span><br>
+            <span>10.Station Assistance: If you need any help or directions, approach railway staff or use the information booths available.</span><br>
+            <span>11.Follow Local Rules: Abide by the local station rules and regulations to ensure a safe and smooth journey.</span><br>
+        </div>
+
+    </div>
+    <marquee behavior="initial-scale" direction="left">यत्रिको से हमरा आनुरोध है | स्टेशन पर सावधानी बर्थे |
+       
+
+    </marquee>
+    <script src="/first.js"></script>
+    
+</body>
+</html>
